@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00AFD17E2B95CE25006E2935 /* Project11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project11.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00AFD17E2B95CE25006E2935 /* Project11-Pachinko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project11-Pachinko.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00AFD1812B95CE25006E2935 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00AFD1832B95CE25006E2935 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		00AFD1872B95CE25006E2935 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		00AFD17F2B95CE25006E2935 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00AFD17E2B95CE25006E2935 /* Project11.app */,
+				00AFD17E2B95CE25006E2935 /* Project11-Pachinko.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,9 +71,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00AFD17D2B95CE25006E2935 /* Project11 */ = {
+		00AFD17D2B95CE25006E2935 /* Project11-Pachinko */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00AFD1952B95CE29006E2935 /* Build configuration list for PBXNativeTarget "Project11" */;
+			buildConfigurationList = 00AFD1952B95CE29006E2935 /* Build configuration list for PBXNativeTarget "Project11-Pachinko" */;
 			buildPhases = (
 				00AFD17A2B95CE25006E2935 /* Sources */,
 				00AFD17B2B95CE25006E2935 /* Frameworks */,
@@ -83,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = Project11;
+			name = "Project11-Pachinko";
 			productName = Project11;
-			productReference = 00AFD17E2B95CE25006E2935 /* Project11.app */;
+			productReference = 00AFD17E2B95CE25006E2935 /* Project11-Pachinko.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 00AFD1792B95CE25006E2935 /* Build configuration list for PBXProject "Project11" */;
+			buildConfigurationList = 00AFD1792B95CE25006E2935 /* Build configuration list for PBXProject "Project11-Pachinko" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00AFD17D2B95CE25006E2935 /* Project11 */,
+				00AFD17D2B95CE25006E2935 /* Project11-Pachinko */,
 			);
 		};
 /* End PBXProject section */
@@ -307,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lydia8822.Project11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lydia8822.Project11-Pachinko";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -335,7 +335,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lydia8822.Project11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lydia8822.Project11-Pachinko";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -346,7 +346,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00AFD1792B95CE25006E2935 /* Build configuration list for PBXProject "Project11" */ = {
+		00AFD1792B95CE25006E2935 /* Build configuration list for PBXProject "Project11-Pachinko" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00AFD1932B95CE29006E2935 /* Debug */,
@@ -355,7 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00AFD1952B95CE29006E2935 /* Build configuration list for PBXNativeTarget "Project11" */ = {
+		00AFD1952B95CE29006E2935 /* Build configuration list for PBXNativeTarget "Project11-Pachinko" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00AFD1962B95CE29006E2935 /* Debug */,
