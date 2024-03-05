@@ -41,7 +41,7 @@
 		00AFD1752B95CE25006E2935 = {
 			isa = PBXGroup;
 			children = (
-				00AFD1802B95CE25006E2935 /* Project11 */,
+				00AFD1802B95CE25006E2935 /* Project11-Pachinko */,
 				00AFD17F2B95CE25006E2935 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,7 +54,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00AFD1802B95CE25006E2935 /* Project11 */ = {
+		00AFD1802B95CE25006E2935 /* Project11-Pachinko */ = {
 			isa = PBXGroup;
 			children = (
 				00AFD1812B95CE25006E2935 /* AppDelegate.swift */,
@@ -65,7 +65,7 @@
 				00AFD18E2B95CE29006E2935 /* Assets.xcassets */,
 				00AFD1902B95CE29006E2935 /* LaunchScreen.storyboard */,
 			);
-			path = Project11;
+			path = "Project11-Pachinko";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
