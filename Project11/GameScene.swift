@@ -11,7 +11,7 @@ class GameScene: SKScene {
     
     override func didMove(to view: SKView) {
         let background = SKSpriteNode(imageNamed: "background")
-        background.position = CGPoint(x: 512, y:384)
+        background.position = CGPoint(x: 512, y: 384)
         background.blendMode = .replace
         background.zPosition = -1
         addChild(background)
@@ -24,6 +24,10 @@ class GameScene: SKScene {
         makeBouncer(at: CGPoint(x: 768, y: 0))
         makeBouncer(at: CGPoint(x: 1024, y: 0))
         
+        makeSlot(at: CGPoint(x: 128, y: 0), isGood: true)
+        makeSlot(at: CGPoint(x: 384, y: 0), isGood: false)
+        makeSlot(at: CGPoint(x: 640, y: 0), isGood: true)
+        makeSlot(at: CGPoint(x: 896, y: 0), isGood: false)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -35,7 +39,7 @@ class GameScene: SKScene {
         ball.physicsBody?.restitution = 0.4
         ball.position = location
         addChild(ball)
-        
+//        
 // ** Previous: Falling boxes: SKSpriteNode, UITouch, SKPhysicsBody
 //        let box = SKSpriteNode(color: .red, size: CGSize(width: 64, height: 64))
 //        box.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: 64, height: 64))
@@ -49,6 +53,28 @@ class GameScene: SKScene {
         bouncer.physicsBody = SKPhysicsBody(circleOfRadius: bouncer.size.width / 2)
         bouncer.physicsBody?.isDynamic = false
         addChild(bouncer)
+    }
+    
+    func makeSlot(at position: CGPoint, isGood: Bool) {
+        var slotBase: SKSpriteNode
+        var slotGlow: SKSpriteNode
+        
+        if isGood {
+            slotBase = SKSpriteNode(imageNamed: "slotBaseGood")
+            slotGlow = SKSpriteNode(imageNamed: "slotGlowGood")
+        } else {
+            slotBase = SKSpriteNode(imageNamed: "slotBaseBad")
+            slotGlow = SKSpriteNode(imageNamed: "slotGlowBad")
+        }
+        slotBase.position = position
+        slotGlow.position = position
+        
+        addChild(slotBase)
+        addChild(slotGlow)
+        
+        let spin = SKAction.rotate(byAngle: .pi, duration: 10)
+        let spinForever = SKAction.repeatForever(spin)
+        slotGlow.run(spinForever)
     }
     
 }
