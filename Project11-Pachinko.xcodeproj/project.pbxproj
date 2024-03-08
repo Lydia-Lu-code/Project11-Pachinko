@@ -14,6 +14,7 @@
 		00AFD18D2B95CE25006E2935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00AFD18B2B95CE25006E2935 /* Main.storyboard */; };
 		00AFD18F2B95CE29006E2935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00AFD18E2B95CE29006E2935 /* Assets.xcassets */; };
 		00AFD1922B95CE29006E2935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00AFD1902B95CE29006E2935 /* LaunchScreen.storyboard */; };
+		00AFD1992B9710F7006E2935 /* FireParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 00AFD1982B9710F7006E2935 /* FireParticles.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		00AFD18C2B95CE25006E2935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00AFD18E2B95CE29006E2935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00AFD1912B95CE29006E2935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00AFD1982B9710F7006E2935 /* FireParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticles.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				00AFD18B2B95CE25006E2935 /* Main.storyboard */,
 				00AFD18E2B95CE29006E2935 /* Assets.xcassets */,
 				00AFD1902B95CE29006E2935 /* LaunchScreen.storyboard */,
+				00AFD1982B9710F7006E2935 /* FireParticles.sks */,
 			);
 			path = "Project11-Pachinko";
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 			files = (
 				00AFD18D2B95CE25006E2935 /* Main.storyboard in Resources */,
 				00AFD1842B95CE25006E2935 /* GameScene.sks in Resources */,
+				00AFD1992B9710F7006E2935 /* FireParticles.sks in Resources */,
 				00AFD18F2B95CE29006E2935 /* Assets.xcassets in Resources */,
 				00AFD1922B95CE29006E2935 /* LaunchScreen.storyboard in Resources */,
 			);
